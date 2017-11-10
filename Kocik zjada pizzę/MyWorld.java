@@ -34,7 +34,7 @@ public class MyWorld extends World
     {
         int szansa = Greenfoot.getRandomNumber(100);
         
-        if(szansa<10)
+        if(szansa<5)
         {
             int szerokosc = getWidth();
             int x = Greenfoot.getRandomNumber(szerokosc);
